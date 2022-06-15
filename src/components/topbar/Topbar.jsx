@@ -4,7 +4,7 @@ import style from './topbar.module.scss';
 export const Topbar = () => {
     return (
         <div className={style.topbar}>
-                hello
+
         </div>
     );
 };
