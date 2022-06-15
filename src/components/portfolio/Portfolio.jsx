@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './portfolio.module.scss';
+import './portfolio.scss';
 
 export const Portfolio = () => {
     return (
-        <div className={style.portfolio} id="portfolio">
+        <div className="portfolio" id="portfolio">
 
         </div>
     );

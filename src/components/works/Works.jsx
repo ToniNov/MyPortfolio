@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './works.module.scss'
+import './works.scss'
 
 export const Works = () => {
     return (
-        <div className={style.works} id="works">
+        <div className="works" id="works">
 
         </div>
     );

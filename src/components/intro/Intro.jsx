@@ -1,10 +1,17 @@
 import React from 'react';
-import style from './intro.module.scss';
+import './intro.scss';
 
 export  const Intro = () => {
     return (
-        <div className={style.intro} id="intro">
+        <div className="intro" id="intro">
+            <div className="left">
+                <div className="imgContainer">
 
+                </div>
+            </div>
+            <div className="right">
+
+            </div>
         </div>
     );
 };

@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './contact.module.scss';
+import './contact.scss';
 
 export  const Contact = () => {
     return (
-        <div className={style.contact} id="contact">
+        <div className="contact" id="contact">
             
         </div>
     );
