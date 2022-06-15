@@ -3,7 +3,7 @@ import style from './works.module.scss'
 
 export const Works = () => {
     return (
-        <div className={style.works}>
+        <div className={style.works} id="works">
 
         </div>
     );
