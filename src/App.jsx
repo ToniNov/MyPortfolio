@@ -1,6 +1,6 @@
 import "./app.scss"
 import {Intro} from "./components/intro/Intro";
-import {Skills} from "./components/portfolio/Skills";
+import {AboutMe} from "./components/aboutMe/AboutMe";
 import {Works} from "./components/works/Works";
 import {Contact} from "./components/contact/Contact";
 import {MenuContainer} from "./components/menuContainer";
@@ -14,7 +14,7 @@ function App() {
            <MenuContainer/>
             <div className="sections">
                 <Intro/>
-                <Skills/>
+                <AboutMe/>
                 <Works/>
                 <Contact/>
             </div>

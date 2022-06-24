@@ -15,9 +15,7 @@ export const Intro = memo(() => {
     }
 
     useEffect(() => {
-        debugger
         IntroStart()
-
     }, []);
 
     return (
