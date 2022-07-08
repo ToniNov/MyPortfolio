@@ -31,7 +31,7 @@ export const Intro = memo(() => {
                     <h1>Anton Novik</h1>
                     <h3><span ref={textRef}></span></h3>
                 </div>
-                <a href="#portfolio">
+                <a href="#aboutMe">
                     <img src="assets/down.png" alt="" />
                 </a>
             </div>

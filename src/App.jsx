@@ -8,7 +8,6 @@ import {MenuContainer} from "./components/menuContainer";
 
 
 function App() {
-
     return (
         <div className="app">
            <MenuContainer/>
