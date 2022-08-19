@@ -30,7 +30,7 @@ export const Works =() => {
 
     return (
         <div className="works" id="works">
-            <div className="h1">My Works</div>
+            <h1 className="h1">My Works</h1>
             <div
                 className="slider"
                 style={{transform: `translateX(-${currentSlide * 100}vw)`}}

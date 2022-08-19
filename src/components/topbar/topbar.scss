@@ -30,7 +30,9 @@
     }
 
     .right {
+
       .hamburger {
+        padding: 2px;
         width: 32px;
         height: 25px;
         display: flex;
@@ -54,6 +56,7 @@
     color: white;
 
     .hamburger {
+
       span {
         &:first-child {
           background-color: white;

@@ -4,17 +4,18 @@
   background-color: crimson;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   position: relative;
 
   .h1{
+    font-size: 45px;
+    padding-top: 40px;
     display: flex;
-    flex-direction: column;
-    position: absolute;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .arrow {
+    padding-top: 350px;
     height: 50px;
     position: absolute;
     cursor: pointer;
@@ -24,20 +25,23 @@
     }*/
 
     &.left {
-      left: 100px;
-      transform: rotateY(180deg);
+      left: 150px;
+      transform: rotateY(180deg) translate(-50% , 0);
     }
 
     &.right {
-      right: 100px;
+      right: 150px;
+      transition: translate(-50% , 0);
     }
   }
 
   .slider {
+    padding-top: 200px;
     height: 350px;
     display: flex;
     position: absolute;
     left: 0;
+    transform: translate(-50% , 0);
     transition: all 1s ease-out;
 
     /*@include mobile {
