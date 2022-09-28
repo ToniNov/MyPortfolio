@@ -1,6 +1,6 @@
-import React, {memo, useCallback, useEffect, useRef} from 'react';
-import './intro.scss';
-import { init } from 'ityped'
+import React, {memo, useEffect, useRef} from 'react';
+import style from './intro.module.scss';
+import {init} from 'ityped'
 
 export const Intro = memo(() => {
 
@@ -19,14 +19,14 @@ export const Intro = memo(() => {
     }, []);
 
     return (
-        <div className="intro" id="intro">
-            <div className="left">
-                <div className="imgContainer">
+        <div className={style.intro} id="intro">
+            <div className={style.left}>
+                <div className={style.imgContainer}>
                     <img src="assets/man.png" alt="" />
                 </div>
             </div>
-            <div className="right">
-                <div className="wrapper">
+            <div className={style.right}>
+                <div className={style.wrapper}>
                     <h2>Hi There, I'm</h2>
                     <h1>Anton Novik</h1>
                     <h3><span ref={textRef}></span></h3>

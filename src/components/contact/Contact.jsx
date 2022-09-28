@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './contact.scss';
+import style from './contact.module.scss';
 
 export  const Contact = () => {
     const [message, setMessage] = useState(false);
@@ -8,12 +8,13 @@ export  const Contact = () => {
         e.preventDefault();
         setMessage(true);
     };
+
     return (
-        <div className="contact" id="contact">
-            <div className="left">
+        <div className={style.contact} id="contact">
+            <div className={style.left}>
                 <img src="assets/shake.svg" alt="" />
             </div>
-            <div className="right">
+            <div className={style.right}>
                 <h2>Contact.</h2>
                 <form onSubmit={handleSubmit}>
                     <input type="text" placeholder="Name" />
