@@ -1,9 +1,9 @@
 import React from 'react';
-import './menu.scss';
+import style from './menu.module.scss';
 
 export const Menu = ({menuOpen,setMenuOpen}) => {
     return (
-        <div className={"menu "+(menuOpen && "active")}>
+        <div className={menuOpen ? `${style.menu} ${style.active}` : style.menu}>
             <ul>
                 <li>
                     <a href="#intro">Home</a>

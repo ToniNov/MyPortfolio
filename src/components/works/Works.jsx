@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./works.scss";
+import style from "./works.module.scss";
 
 export const Works =() => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -29,23 +29,23 @@ export const Works =() => {
     };
 
     return (
-        <div className="works" id="works">
+        <div className={style.works} id="works">
             <h1 className="h1">My Works</h1>
             <div
-                className="slider"
+                className={style.slider}
                 style={{transform: `translateX(-${currentSlide * 100}vw)`}}
             >
                 {data.map((d) => (
-                    <div className="container">
-                        <div className="item">
-                            <div className="left">
-                                <div className="leftContainer">
+                    <div className={style.container}>
+                        <div className={style.item}>
+                            <div className={style.left}>
+                                <div className={style.leftContainer}>
                                     <h2>{d.title}</h2>
                                     <p>{d.desc}</p>
                                     <span>Look</span>
                                 </div>
                             </div>
-                            <div className="right">
+                            <div className={style.right}>
                                 <img
                                     src={d.img}
                                     alt=""
@@ -57,13 +57,13 @@ export const Works =() => {
             </div>
             <img
                 src="assets/arrow.png"
-                className="arrow left"
+                className={`${style.arrow} ${style.left}`}
                 alt=""
                 onClick={() => handleClick("left")}
             />
             <img
                 src="assets/arrow.png"
-                className="arrow right"
+                className={`${style.arrow} ${style.right}`}
                 alt=""
                 onClick={() => handleClick()}
             />
