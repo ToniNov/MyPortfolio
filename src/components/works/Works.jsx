@@ -1,8 +1,11 @@
 import { useState } from "react";
 import style from "./works.module.scss";
+import arrow from '../../assets/arrow.png';
 
 export const Works =() => {
+
     const [currentSlide, setCurrentSlide] = useState(0);
+
     const data = [
         {
             id: "1",
@@ -56,13 +59,13 @@ export const Works =() => {
                 ))}
             </div>
             <img
-                src="assets/arrow.png"
+                src={arrow}
                 className={`${style.arrow} ${style.left}`}
                 alt=""
                 onClick={() => handleClick("left")}
             />
             <img
-                src="assets/arrow.png"
+                src={arrow}
                 className={`${style.arrow} ${style.right}`}
                 alt=""
                 onClick={() => handleClick()}

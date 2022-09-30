@@ -1,11 +1,9 @@
 import "./app.scss"
 import {Intro} from "./components/intro/Intro";
-import {AboutMe} from "./components/aboutMe/AboutMe";
+import {Skills} from "./components/Skills/Skills";
 import {Works} from "./components/works/Works";
 import {Contact} from "./components/contact/Contact";
 import {MenuContainer} from "./components/menuContainer";
-
-
 
 function App() {
     return (
@@ -13,7 +11,7 @@ function App() {
            <MenuContainer/>
             <div className="sections">
                 <Intro/>
-                <AboutMe/>
+                <Skills/>
                 <Works/>
                 <Contact/>
             </div>

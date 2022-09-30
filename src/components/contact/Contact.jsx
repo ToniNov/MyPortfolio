@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import style from './contact.module.scss';
+import shake from '../../assets/shake.svg';
 
 export  const Contact = () => {
     const [message, setMessage] = useState(false);
@@ -12,7 +13,7 @@ export  const Contact = () => {
     return (
         <div className={style.contact} id="contact">
             <div className={style.left}>
-                <img src="assets/shake.svg" alt="" />
+                <img src={shake} alt="" />
             </div>
             <div className={style.right}>
                 <h2>Contact.</h2>

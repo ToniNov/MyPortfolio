@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.9.3",
+    "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.9.3",
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.8.4",
@@ -12,7 +12,7 @@
     "@testing-library/user-event": "^13.2.1",
     "ityped": "^1.0.3",
     "react": "^18.2.0",
-    "react-circular-progressbar": "^2.1.0",
+    "react-awesome-reveal": "^4.0.1",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-visibility-sensor": "^5.1.1",

@@ -1,0 +1,46 @@
+@import "../../../sass/variables";
+@import "../../../sass/mixins";
+
+.skill {
+  text-align: center;
+  box-sizing: border-box;
+  min-width: 27%;
+  padding: 20px 5px;
+  width: 100px;
+  margin: 0 auto;
+  @include flex(column, flex-start, center, nowrap);
+
+  .icon {
+    height: 80px;
+    width: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    transform: rotate(45deg);
+    margin: 0 auto 30px;
+    position: relative;
+
+    .img {
+      width: 50%;
+      height: 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(50%, 50%) rotate(-45deg);
+      @include bgSettings();
+    }
+    &:hover {
+      background: $primaryColor;
+      box-shadow: 0 0 13px 1px #dfb364;
+      transform: rotate(405deg);
+      transition: all .5s ease-in-out 0s;
+    }
+  }
+
+  .title {
+    letter-spacing: 1px;
+    font-weight: 700;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    @include text($titleFontFamily, 18px, 1.2, $textColor);
+  }
+}

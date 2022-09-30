@@ -9,10 +9,10 @@ export const Menu = ({menuOpen,setMenuOpen}) => {
                     <a href="#intro">Home</a>
                 </li>
                 <li>
-                    <a href="#aboutMe">About Me</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="#works">Works</a>
+                    <a href="#works">Projects</a>
                 </li>
                 <li>
                     <a href="#contact">Contacts</a>

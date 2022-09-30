@@ -1,6 +1,7 @@
 import React, {memo, useEffect, useRef} from 'react';
 import style from './intro.module.scss';
 import {init} from 'ityped'
+import down from '../../assets/down.png';
 
 export const Intro = memo(() => {
 
@@ -31,8 +32,8 @@ export const Intro = memo(() => {
                     <h1>Anton Novik</h1>
                     <h3><span ref={textRef}></span></h3>
                 </div>
-                <a href="#aboutMe">
-                    <img src="assets/down.png" alt="" />
+                <a href="#skills">
+                    <img src={down} alt="" />
                 </a>
             </div>
         </div>

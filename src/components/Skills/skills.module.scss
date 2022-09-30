@@ -1,0 +1,21 @@
+
+.skillsContainer {
+
+  background-color: #f2eded;
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .skillsWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+}
+
+
