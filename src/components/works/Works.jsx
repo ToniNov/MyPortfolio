@@ -23,6 +23,13 @@ export const Works =() => {
                 " create social relationships between people who have similar interests or offline connections.",
             img: "https://miro.medium.com/max/1103/0*KIKnUvzdIkp5zcDJ",
         },
+        {
+            id: "3",
+            title: "Learn Card",
+            desc: "This project is designed to help you remember what you have learned." +
+                " You will ask yourself a question and then answer it and evaluate your knowledge.",
+            img: "https://img.freepik.com/premium-vector/cartoon-boy-with-question-marks-all-around-deciding-make-something_68708-773.jpg?w=2000",
+        },
     ];
 
     const handleClick = (way) => {
